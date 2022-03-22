@@ -25,7 +25,6 @@ public class MCCourseMod
     private static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "mccourse";
 
-    //Very important
     public MCCourseMod() {
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
