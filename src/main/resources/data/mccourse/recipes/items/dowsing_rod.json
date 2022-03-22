@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " / ",
+    " o ",
+    "/ /"
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "o": {
+      "item": "minecraft:heart_of_the_sea"
+    }
+  },
+  "result": {
+    "item": "mccourse:dowsing_rod"
+  }
+}
