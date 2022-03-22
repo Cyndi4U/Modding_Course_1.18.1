@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "cobalt_ingot",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mccourse:cobalt_nugget"
+    }
+  },
+  "result": {
+    "item": "mccourse:cobalt_ingot"
+  }
+}
