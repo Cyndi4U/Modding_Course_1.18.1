@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "speedy_block",
+  "pattern": [
+    "###",
+    "#P#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stone"
+    },
+    "P": {
+      "item": "minecraft:potion",
+      "Potion": "minecraft:swiftness"
+    }
+  },
+  "result": {
+    "item": "mccourse:speedy_block",
+    "count": 8
+  }
+}

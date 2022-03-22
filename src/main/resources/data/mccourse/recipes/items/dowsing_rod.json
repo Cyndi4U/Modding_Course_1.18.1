@@ -2,15 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     " / ",
-    " o ",
-    "/ /"
+    " / ",
+    "I I"
   ],
   "key": {
     "/": {
       "item": "minecraft:stick"
     },
-    "o": {
-      "item": "minecraft:heart_of_the_sea"
+    "I": {
+      "item": "mccourse:cobalt_ingot"
     }
   },
   "result": {
