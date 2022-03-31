@@ -15,6 +15,7 @@ import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.paletteheart.mccourse.block.ModBlocks;
 import net.paletteheart.mccourse.item.ModItems;
+import net.paletteheart.mccourse.util.ModTags;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -34,6 +35,8 @@ public class MCCourseMod
 
         ModItems.register(eventBus);
         ModBlocks.register(eventBus);
+
+        ModTags.register();
 
         eventBus.addListener(this::setup);
 

@@ -14,6 +14,7 @@ import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.paletteheart.mccourse.util.ModTags;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
@@ -66,8 +67,7 @@ public class DowsingRodItem extends Item {
     }
 
     private boolean isValueableBlock(Block block) {
-        return block == Blocks.COAL_ORE || block == Blocks.COPPER_ORE
-                || block == Blocks.DIAMOND_ORE || block == Blocks.IRON_ORE;
+        return ModTags.Blocks.DOWSING_ROD_VALUABLES.contains(block);
     }
 
 }

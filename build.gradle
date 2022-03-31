@@ -4,10 +4,26 @@ buildscript {
         maven { url = 'https://maven.minecraftforge.net' }
         maven { url = 'https://maven.parchmentmc.org' }
         mavenCentral()
+
+        maven {
+            // location of the maven that hosts JEI files
+            name = "Progwml6 maven"
+            url = "https://dvs1.progwml6.com/files/maven/"
+        }
+        maven {
+            // location of a maven mirror for JEI files, as a fallback
+            name = "ModMaven"
+            url = "https://modmaven.dev"
+        }
     }
     dependencies {
         classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
         classpath 'org.parchmentmc:librarian:1.+'
+
+        // compile against the JEI API but do not include it at runtime
+        compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api")
+        // at runtime, use the full JEI jar
+        runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}")
     }
 }
 apply plugin: 'net.minecraftforge.gradle'

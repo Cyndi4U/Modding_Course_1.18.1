@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "coal",
   "pattern": [
     "###",
     "###",
@@ -7,10 +8,10 @@
   ],
   "key": {
     "#": {
-      "tag": "forge:ingots/cobalt"
+      "item": "mccourse:coal_sliver"
     }
   },
   "result": {
-    "item": "mccourse:cobalt_block"
+    "item": "minecraft:coal"
   }
 }
