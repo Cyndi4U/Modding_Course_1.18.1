@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mccourse:cobalt_block"
+    }
+  ],
+  "result": {
+    "item": "mccourse:cobalt_button"
+  }
+}

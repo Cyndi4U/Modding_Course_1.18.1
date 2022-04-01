@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mccourse:cobalt_block"
+    }
+  },
+  "result": {
+    "item": "mccourse:cobalt_slab",
+    "count": 6
+  }
+}
