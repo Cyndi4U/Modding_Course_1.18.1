@@ -63,7 +63,7 @@ public class DowsingRodItem extends Item {
     }
 
     private void outputValuableCoordinates(BlockPos blockPos, Player player, Block blockBelow) {
-        player.sendMessage(new TextComponent("Found " + blockBelow.asItem().getRegistryName().toString() + " at Y:" + blockPos.getY()), player.getUUID());
+        player.sendMessage(new TextComponent(blockBelow.asItem().getRegistryName().toString() + new TranslatableComponent("item.mccourse.dowsing_rod.found_valuables") + blockPos.getY()), player.getUUID());
     }
 
     private boolean isValueableBlock(Block block) {

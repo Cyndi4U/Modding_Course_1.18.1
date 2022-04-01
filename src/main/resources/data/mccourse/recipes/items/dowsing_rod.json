@@ -10,7 +10,7 @@
       "item": "minecraft:stick"
     },
     "I": {
-      "item": "mccourse:cobalt_ingot"
+      "tag": "forge:ingots/cobalt"
     }
   },
   "result": {

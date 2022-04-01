@@ -12,10 +12,15 @@
   "block.mccourse.deepslate_cobalt_ore": "Deepslate Cobalt Ore",
   "block.mccourse.raw_cobalt_block": "Block of Raw Cobalt",
   "block.mccourse.speedy_block": "Speedy Block",
+  "block.mccourse.cobalt_stairs": "Cobalt Stairs",
+  "block.mccourse.cobalt_slab": "Cobalt Slab",
+  "block.mccourse.cobalt_button": "Cobalt Button",
+  "block.mccourse.cobalt_pressure_plate": "Cobalt Pressure Plate",
 
   "itemGroup.coursemodtab": "Mod Course Tab",
 
   "item.mccourse.dowsing_rod.no_valuables": "No valuables at current position.",
+  "item.mccourse.dowsing_rod.found_valuables": " found at Y:",
 
   "tooltip.mccourse.dowsing_rod.tooltip.shift": "§7Right click on a block to look for valuables beneath it.",
   "tooltip.mccourse.dowsing_rod.tooltip": "§8Press §oSHIFT§r§8 for more information."
